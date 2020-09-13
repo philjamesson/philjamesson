@@ -7,12 +7,12 @@
   justify-items:stretch;
 }
 .grid > div {
-	display: grid;
+	display: auto;
 }
 
 .grid > div > a {
 	display: grid;
-	place-content: center;
+	align-content: center;
 }
 
 html, body {
@@ -58,7 +58,6 @@ img {
 }
 
 .item-e {
-	margin: auto;
 	grid-column: 4/8;
 	grid-row: 4/8;
 	z-index: 1;
