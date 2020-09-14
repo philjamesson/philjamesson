@@ -13,26 +13,57 @@ html, body {
     margin: 0px;
     z-index: 1;
 }
+
+.social:hover {
+	width: 50.3%;
+	height: 50.3%;
+	z-index: 2;
+}
+
 #youtube {
     top: 0px;
     left: 0px;
     background-color: #ff0000;
 }
+
+#youtube:hover {
+	border-right: 1px solid rgba(0,0,0,.7);
+	border-bottom: 1px solid rgba(0,0,0,.7);
+}
+
 #twitch {
     top: 0px;
     right: 0px;
     background-color: #6441a5;
 }
+
+#twitch:hover {
+	border-left: 1px solid rgba(0,0,0,.7);
+	border-bottom: 1px solid rgba(0,0,0,.7);
+}
+
 #twitter {
     bottom: 0px;
     left: 0px;
     background-color: #1da1f2;
 }
+
+#twitter:hover {
+	border-right: 1px solid rgba(0,0,0,.7);
+	border-top: 1px solid rgba(0,0,0,.7);
+}
+
 #instagram {
     bottom: 0px;
     right: 0px;
-    background-color: #c13584;
+    background-color: c13584;
 }
+
+#instagram:hover {
+	border-left: 1px solid rgba(0,0,0,.7);
+	border-top: 1px solid rgba(0,0,0,.7);
+}
+
 #photo {
     position: absolute;
     top: 50%;
@@ -40,7 +71,7 @@ html, body {
     width: 25%;
     max-width: 400px;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 3;
 }
 .social img {
     position: absolute;
